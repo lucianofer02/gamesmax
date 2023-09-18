@@ -5,6 +5,7 @@
     align-items: center;
     transition: transform 0.3s ease;
     flex-basis: calc(33.33% - 20px);
+    position: relative;
 }
 
 .card:hover {
@@ -23,20 +24,6 @@
 }
 
 .button:hover {
-    background-color: grey;
-    color: black;
-}
-
-.info {
-    background-color: black;
-    width: 130px;
-    color: white;
-    border-radius: 10px;
-    margin-top: auto;
-    margin-right: auto;
-}
-
-.info:hover {
     background-color: grey;
     color: black;
 }

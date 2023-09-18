@@ -4,11 +4,11 @@ import './gamecard.css'
 const Gamecard = (props) => {
   return (
     <div className='card'>
-        <h1>{props.nombre}</h1>
-        <h3>{props.precio}</h3>
+        <h1>{props.title}</h1>
+        <h3>{props.price}</h3>
         <div className='botones'>
             <button className='button'>Comprar</button>
-            <button className='info'>Info</button>
+            <button className='button'>Info</button>
         </div>
     </div> 
     )
