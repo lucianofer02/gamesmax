@@ -1,7 +1,8 @@
 import { useState } from 'react'
 import './App.css'
-import Gamecard from './assets/components/GameCard/gamecard'
+/* import Gamecard from './assets/components/GameCard/gamecard' */
 import Gamesform from './assets/components/GamesForm/gamesform'
+import Navbar from './assets/components/Navbar/navbar'
 
 const App = () => {
 
@@ -14,6 +15,7 @@ const App = () => {
   return (
     <>
     <div>
+      <Navbar/>
     <h1>GamesMax</h1>
     <Gamesform onSaveGame={addGame}/>
       {games.map((game) => (
