@@ -1,6 +1,5 @@
 import { useState } from 'react'
 import './App.css'
-import Gamecard from './assets/components/GameCard/gamecard'
 import Gamesform from './assets/components/GamesForm/gamesform'
 
 const App = () => {
