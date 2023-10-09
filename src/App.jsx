@@ -1,6 +1,8 @@
 import { useState } from 'react'
-import './App.css'
+import '../src/App.css'
 import Gamesform from './assets/components/GamesForm/gamesform'
+import Navbar from './assets/components/Navbar/navbar'
+import Login from './assets/components/Login/Login'
 
 const App = () => {
 
@@ -13,8 +15,14 @@ const App = () => {
   return (
     <>
     <div>
-    <h1>GamesMax</h1>
-    <Gamesform onSaveGame={addGame}/>
+      <Login />
+      <div className='nav'>
+      <Navbar />
+      </div>
+    <div className='gameform'>
+      <h1>GamesMax</h1>
+      <Gamesform onSaveGame={addGame}/>
+    </div>
       {games.map((game) => (
         <div className='card'>
           <h2>{game.title}</h2>

@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import React from 'react';
-import './gamesform.css';
+import '../GamesForm/gamesForm.css'
 
 const Gamesform = ({onSaveGame}) => {
     const [title, setTitle] = useState("");
