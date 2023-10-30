@@ -1,5 +1,6 @@
 import React, {useState} from 'react'
 import '../Navbar/navBar.css'
+import CartButton from '../CartButton/CartButton'
 
 function Navbar() {
     const [active, setActive] = useState('nav__menu');
@@ -49,6 +50,7 @@ function Navbar() {
             <div className="line2"></div>
             <div className="line3"></div>
         </div>
+        <CartButton/>
     </nav>
   );
 }

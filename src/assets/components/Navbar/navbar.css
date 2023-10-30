@@ -46,7 +46,13 @@
     cursor: pointer;
     display: none;
 }
-
+.carrito{
+    font-size: 25px;
+    margin-right: 20px;
+    margin-top: 4vh;
+    cursor: pointer;
+    text-decoration: none;
+}
 @media screen and (max-width: 768px) {
     .nav__toggler{
         display: block;

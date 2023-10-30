@@ -3,6 +3,8 @@ import '../src/App.css'
 import Gamesform from './assets/components/GamesForm/gamesform'
 import Navbar from './assets/components/Navbar/navbar'
 import Login from './assets/components/Login/Login'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import Cart from './assets/components/Cart/Cart'
 
 const App = () => {
 
@@ -33,6 +35,9 @@ const App = () => {
           </div>
         </div>
       ))}
+      <div>
+        <Cart/>
+      </div>
   </div>
   </>
   )
