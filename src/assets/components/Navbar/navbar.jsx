@@ -1,5 +1,6 @@
 import React, {useState} from 'react'
-import '../Navbar/navBar.css'
+import './navBar.css'
+import { Link } from 'react-router-dom';
 
 function Navbar() {
     const [active, setActive] = useState('nav__menu');
@@ -24,9 +25,7 @@ function Navbar() {
         </a>
         <ul className={active}>
             <li className="nav__item">
-                <a href="#" className="nav__link">
-                Home
-                </a>
+                <Link to="/home">Home</Link>
             </li>
             <li className="nav__item">
                 <a href="#" className="nav__link">
@@ -39,9 +38,7 @@ function Navbar() {
                 </a>
             </li>
             <li className="nav__item">
-                <a href="#" className="nav__link">
-                Contacto
-                </a>
+                <Link to={"/login"}>Cerrar Sesion</Link>
             </li>
         </ul>
         <div onClick={navToggle} className={toggleIcon}>
