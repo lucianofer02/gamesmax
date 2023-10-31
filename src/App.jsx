@@ -6,6 +6,8 @@ import Navbar from './assets/components/navbar/Navbar'
 import Login from './assets/components/Login/Login'
 import Dashboard from './assets/components/dashboard/Dashboard'
 import PageNotFound from './assets/components/security/pageNotFound/PageNotFound'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import Cart from './assets/components/Cart/Cart'
 
 const App = () => {
 
