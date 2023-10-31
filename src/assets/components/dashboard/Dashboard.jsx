@@ -6,6 +6,7 @@ import NewGame from '../newGame/NewGame';
 import { AuthenticationContext } from '../../services/authenticationContext/autentication.context';
 import Games from '../games/Games';
 import GameFilter from '../gameFilter/GameFilter';
+import Products from '../Products/Products';
 
 
 const Dashboard = () => {
