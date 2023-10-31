@@ -38,6 +38,7 @@ const App = () => {
       <Route path='/login' element={<Login />} />
       <Route path='/home' element={<Dashboard />} />
       <Route path='/*' element={<PageNotFound/>}/>
+      <Cart />
     </Routes>
     </>
   )
